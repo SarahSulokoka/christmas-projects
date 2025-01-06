@@ -52,7 +52,7 @@ public class projectFive {
         }
 
         if (!seats[row][colIndex]) {
-            seats[row][colIndex] = true; // Κλείσιμο θέσης
+            seats[row][colIndex] = true;
             System.out.println("Seat" + column + (row + 1) + " successfully booked.");
         } else {
             System.out.println("Seat" + column + (row + 1) + " not available.");
